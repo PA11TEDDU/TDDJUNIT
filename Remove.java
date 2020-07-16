@@ -5,15 +5,15 @@ public class Remove
 {
 	public static void main(String[] args) {
         System.out.println("ABC"); 
-        System.out.println(Remove("ABC"));
+        System.out.println(remove("ABC"));
         System.out.println("AABC"); 
-        System.out.println(Remove("AABC"));
+        System.out.println(remove("AABC"));
         System.out.println("BAC"); 
-        System.out.println(Remove("BAC"));
+        System.out.println(remove("BAC"));
         System.out.println("BAAC"); 
-        System.out.println(Remove("BAAC"));
+        System.out.println(remove("BAAC"));
 	}
-	 static String Remove(String string) {
+	 static String remove(String string) {
 		String result=string;
 		int n=string.length();
 		if(string.charAt(0)=='A'&&string.charAt(1)!='A')
